@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP: Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-image">
+            <div class="logo">
+                <img src="odin-lined.png" alt="" class="logo-pic">
+                <p class="top">ODIN</p>
+            </div>
+            <div class="credit">
+                Photo by <a href="https://unsplash.com/@asoggetti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alessio Soggetti</a> on <a href="https://unsplash.com/s/photos/mountain-snow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+        </div>
+        <div class="right-Side">
+            <div class="header">
+                <p class="main-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p class="middle-text">Sign up <span style='font-style: italic;'>now</span> to get started.</p>
+                <p class="sub-text">You <span style='font-style: italic;'>know</span> you want to.</p>
+            </div>
+            <form class='form' name='form1' action="">
+                <p class='action'>Let's do this!</p>
+                <div class="main-Form">
+                    <div class="left-Form">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name='first-name' class="first-name form-element">
+                        <label for="email">EMAIL</label>
+                        <input type="email" class="email form-element" name='email'>
+                        <label for="password">PASSWORD</label>
+                        <input type='password' class="password form-element" name='password' value=''>
+                        <div class="pwd-error"></div>
+                    </div>
+                    <div class="right-Form">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" class="last-name form-element" name='last-name'>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type='tel' class="phone-number form-element" name='phone-number'>
+                        <label for="confirmPwd">CONFIRM PASSWORD</label>
+                        <input type="password" class="confirm-pwd form-element" name='confirmPwd' value=''>
+                        <div class="pwd-confirm-error"></div>
+                    </div>
+                </div>
+            </form>
+            <div class="footer">
+                <button type='submit' class='create-act'>Create Account</button>
+                <p class="log-in">Already have an account? <span style='color: #366496; font-weight: bold;'>Log in</span></p>
+            </div>
+        </div>
+    </div>
+
+
+  
+  
+  <script src='script.js'></script>  
+</body>
+</html>
